@@ -20,64 +20,66 @@ function App() {
             <Header title="Adopt a cat" />
 
             {/* Cards */}
-            <section className="cat-card">
-                <CatCard
-                    image={Cat1}
-                    name="Walter"
-                    description="Although he seems a little grumpy, actually is really really grumpy, so if you want a cat but you don't like interactions, Rolo should be your choice."
-                    tagColor="success"
-                    tagText="Grumpy"
-                />
-            </section>
+            <section className="card-container">
+                <article className="cat-card">
+                    <CatCard
+                        image={Cat1}
+                        name="Walter"
+                        description="Although he seems a little grumpy, actually is really really grumpy, so if you want a cat but you don't like interactions, Rolo should be your choice."
+                        tagColor="danger"
+                        tagText="Grumpy"
+                    />
+                </article>
 
-            <section className="cat-card">
-                <CatCard
-                    image={Cat2}
-                    name="Walter"
-                    description="Although he seems a little grumpy, actually is really really grumpy, so if you want a cat but you don't like interactions, Rolo should be your choice."
-                    tagColor="success"
-                    tagText="Grumpy"
-                />
-            </section>
+                <article className="cat-card">
+                    <CatCard
+                        image={Cat2}
+                        name="Alabama"
+                        description="She's as sweet as she seems, loves to hang out in different containers, she's a cat that if she fits, she sits. All you need is Alabama."
+                        tagColor="dark"
+                        tagText="Sweet"
+                    />
+                </article>
 
-            <section className="cat-card">
-                <CatCard
-                    image={Cat3}
-                    name="Walter"
-                    description="Although he seems a little grumpy, actually is really really grumpy, so if you want a cat but you don't like interactions, Rolo should be your choice."
-                    tagColor="success"
-                    tagText="Grumpy"
-                />
-            </section>
+                <article className="cat-card">
+                    <CatCard
+                        image={Cat3}
+                        name="Emma"
+                        description="A kind old lady that loves sun, because who doesn't like sun baths? She will always wait for you to join her on her lazy sun times."
+                        tagColor="warning"
+                        tagText="Sun lover"
+                    />
+                </article>
 
-            <section className="cat-card">
-                <CatCard
-                    image={Cat4}
-                    name="Walter"
-                    description="Although he seems a little grumpy, actually is really really grumpy, so if you want a cat but you don't like interactions, Rolo should be your choice."
-                    tagColor="success"
-                    tagText="Grumpy"
-                />
-            </section>
+                <article className="cat-card">
+                    <CatCard
+                        image={Cat4}
+                        name="Dorito"
+                        description="A young but really duck enthusiastic guy, he also get along very well around kids and other animals, but he prefers ducks."
+                        tagColor="info"
+                        tagText="Playful"
+                    />
+                </article>
 
-            <section className="cat-card">
-                <CatCard
-                    image={Cat5}
-                    name="Walter"
-                    description="Although he seems a little grumpy, actually is really really grumpy, so if you want a cat but you don't like interactions, Rolo should be your choice."
-                    tagColor="success"
-                    tagText="Grumpy"
-                />
-            </section>
+                <article className="cat-card">
+                    <CatCard
+                        image={Cat5}
+                        name="Tamita"
+                        description="Tamita loves to help with the house, especially if it is related to plants, she doesn't eat or destroy them, just love to be there."
+                        tagColor="success"
+                        tagText="Gardener"
+                    />
+                </article>
 
-            <section className="cat-card">
-                <CatCard
-                    image={Cat6}
-                    name="Walter"
-                    description="Although he seems a little grumpy, actually is really really grumpy, so if you want a cat but you don't like interactions, Rolo should be your choice."
-                    tagColor="success"
-                    tagText="Grumpy"
-                />
+                <article className="cat-card">
+                    <CatCard
+                        image={Cat6}
+                        name="Miso"
+                        description="This cute girl loves outdoor spaces, she won't do a great scape, but she will be your best friend on hot summer days while you read a book."
+                        tagColor="secondary"
+                        tagText="Summer lover"
+                    />
+                </article>
             </section>
 
             {/* Footer */}
