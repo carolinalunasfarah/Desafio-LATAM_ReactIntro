@@ -1,6 +1,27 @@
 #root {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
+    margin: 0;
     text-align: center;
+}
+
+.header {
+    margin-top: 2rem;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1.8rem;
+}
+
+.cat-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 18rem;
+    margin: 3rem;
+}
+
+footer {
+    width: 45%;
+    margin: auto auto 3rem auto;
 }

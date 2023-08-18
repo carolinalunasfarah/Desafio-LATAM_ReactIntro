@@ -17,15 +17,18 @@ function App() {
     return (
         <>
             {/* Header */}
-            <Header title="Adopt a cat" />
+            <section className="header">
+                <Header title="Adopt a cat" />
+            </section>
 
             {/* Cards */}
             <section className="card-container">
                 <article className="cat-card">
                     <CatCard
                         image={Cat1}
+                        className="card-img"
                         name="Walter"
-                        description="Although he seems a little grumpy, actually is really really grumpy, so if you want a cat but you don't like interactions, Rolo should be your choice."
+                        description="He seems a little grumpy, but actually is really really grumpy, so if you want a cat but you don't like interactions, Walter is for you."
                         tagColor="danger"
                         tagText="Grumpy"
                     />
@@ -33,11 +36,11 @@ function App() {
 
                 <article className="cat-card">
                     <CatCard
-                        image={Cat2}
-                        name="Alabama"
-                        description="She's as sweet as she seems, loves to hang out in different containers, she's a cat that if she fits, she sits. All you need is Alabama."
-                        tagColor="dark"
-                        tagText="Sweet"
+                        image={Cat5}
+                        name="Tamita"
+                        description="Tamita loves to help with the house, especially if it is related to plants, she doesn't eat or destroy them, just love to be there."
+                        tagColor="success"
+                        tagText="Gardener" className="tag-text"
                     />
                 </article>
 
@@ -63,11 +66,11 @@ function App() {
 
                 <article className="cat-card">
                     <CatCard
-                        image={Cat5}
-                        name="Tamita"
-                        description="Tamita loves to help with the house, especially if it is related to plants, she doesn't eat or destroy them, just love to be there."
-                        tagColor="success"
-                        tagText="Gardener"
+                        image={Cat2}
+                        name="Alabama"
+                        description="She's as sweet as she seems, loves to hang out in different containers, she's a cat that if she fits, she sits. All you need is Alabama."
+                        tagColor="dark"
+                        tagText="Sweet"
                     />
                 </article>
 
@@ -75,7 +78,7 @@ function App() {
                     <CatCard
                         image={Cat6}
                         name="Miso"
-                        description="This cute girl loves outdoor spaces, she won't do a great scape, but she will be your best friend on hot summer days while you read a book."
+                        description="This cute girl loves outdoor spaces, she won't do a great scape, but she will be your BFF on hot summer days while you read a book."
                         tagColor="secondary"
                         tagText="Summer lover"
                     />
@@ -83,7 +86,9 @@ function App() {
             </section>
 
             {/* Footer */}
-            <Footer footer="Explore our adoption gallery to find the perfect cat for you. We have a lot of different personalities and colors, so you can find the one to take home with you. Adopt a cat and your life will ever be boring again." />
+            <footer>
+                <Footer footer="Explore our adoption gallery to find the perfect cat for you. We have a lot of different personalities and colors, so you can find the one to take home with you. Adopt a cat and your life will ever be boring again." />
+            </footer>
         </>
     );
 }
