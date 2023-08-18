@@ -15,11 +15,15 @@ function App() {
             <Header title="Adopt a cat" />
 
             {/* Cards */}
-            <CatCard
-                image={Cat1}
-                name="Rolo"
-                description="Although he seems a little grumpy, actually is really really grumpy, so if you want a cat but you don't like interactions, Rolo should be your choice."
-            />
+            <section className="cat-card">
+                <CatCard
+                    image={Cat1}
+                    name="Walter"
+                    description="Although he seems a little grumpy, actually is really really grumpy, so if you want a cat but you don't like interactions, Rolo should be your choice."
+                    tagColor="success"
+                    tagText="Grumpy"
+                />
+            </section>
 
             {/* Footer */}
             <Footer footer="Explore our adoption gallery to find the perfect cat for you. We have a lot of different personalities and colors, so you can find the one to take home with you. Adopt a cat and your life will ever be boring again." />
