@@ -1,5 +1,5 @@
 import Card from "react-bootstrap/Card"; /* since is a bootstrap component, we need to import it here, and then our component on App.jsx */
-import Tags from "./assets/components/Tags";
+import Tags from "./Tags";
 
 const CatCard = ({ name, image, description, tagColor, tagText }) => {
     return (
